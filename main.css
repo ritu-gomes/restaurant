@@ -10,7 +10,6 @@ body{
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
-    font-family: 'Pacifico', cursive;
 }
 .head{
     text-align: center;
@@ -27,9 +26,9 @@ body{
     text-align: center;
 }
 .main ul li{
-    background: linear-gradient(to bottom right,rgba(216, 81, 19, 0.931),rgba(245, 28, 28, 0.904));
+    background: linear-gradient(to bottom right,rgba(216, 81, 19, 0.931),rgba(192, 3, 3, 0.904));
     border-radius: .2rem;
-    margin-left: .4rem;
+    margin: 0 .4rem;
     margin-top: 1rem ;
 }
 .main ul li a{
@@ -60,12 +59,13 @@ body{
     text-align: center;
 }
 footer{
-    background:   linear-gradient(to bottom right,rgba(0, 190, 248, 0.781),rgba(6, 26, 206, 0.835));
+    background:   linear-gradient(to bottom right,rgba(214, 49, 236, 0.856),rgba(73, 1, 121, 0.932));
     padding: 1rem 0;
     margin: 1rem 0;
 }
 footer ul li{
     list-style: none;
+    text-transform: uppercase;
 }
 footer ul li a{
     font-size: 1.6rem;
@@ -79,3 +79,11 @@ h6{
 footer img{
     width: 120px;
 }
+.main button{
+    background: linear-gradient(to bottom right,rgba(216, 81, 19, 0.931),rgba(245, 28, 28, 0.904));
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem auto;
+    display: none;
+}
+

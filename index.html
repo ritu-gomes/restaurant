@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <div class="container">
         <header class="head">
             <h1 style="font-family: 'Pacifico', cursive">chit chat cafe</h1>
-            <p style="font-family: 'Pacifico', cursive" class="des">take a break to refresh your mind</p>
+            <p style="font-family: 'Pacifico', cursive" class="des">take a break to get refreshed</p>
         </header>
         <div class="row">
             <div class="col-lg-9">
         <section class="main">
+
+            <button class="btn dropdown-toggle" onclick="openMenu()">menu</button>
            
-            <ul class="nav justify-content-center">
+            <ul class="nav justify-content-center" id="res-menu">
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">burger</a>
                     <div class="dropdown-menu">
@@ -64,6 +67,7 @@
                 </li>
             </ul>
             
+
             <img src="images/restaurant-6267.jpg" alt="the-cafe">
             
         </section>
@@ -76,39 +80,39 @@
 
         <div class="pics justify-content-center">
             <div class="row">
-            <div class="col-lg-4">
+            <div class="col-md-6 col-lg-4">
             <img src="images/pizza.jpg" alt="pizza" >
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-6 col-lg-4">
             <img src="images/pasta.jpg" alt="pasta" >
             </div>
-            <div class="col-lg-4">
+            <div class=" col-md-6 col-lg-4">
             <img src="images/tomato-burger.jpg" alt="burger" >
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
+        
+        
+            <div class="col-md-6 col-lg-4">
             <img src="images/burrito.jpg" alt="pizza" >
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-6 col-lg-4">
             <img src="images/fruit-shake.jpg" alt="shake" >
             </div>
-            <div class="col-lg-4">
+            <div class=" col-md-6 col-lg-4">
                 <img src="images/tea-on.jpg" alt="tea" >
             </div>
-        </div>
+            </div>
     </div>
     <footer>
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-sm-6">
                 <h6>contact us</h6>
         <ul>
-            <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
-            <li><a href="#"><i class="fas fa-mobile"></i></a></li>
-            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-messenger"> brad joe</i></a></li>
+            <li><a href="#"><i class="fas fa-mobile"></i> +8845-77569</a></li>
+            <li><a href="#"><i class="fab fa-whatsapp"></i> +88783-57357</a></li>
         </ul>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-sm-6">
                <h6> also can order here</h6>
                <a href="#"><img src="images/download.png" alt="foodpanda">
                </a>
@@ -125,5 +129,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/aaa5ee70cd
 .js"></script>
+<script src="main.js"></script>
 </body>
 </html>
